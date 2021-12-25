@@ -1,0 +1,40 @@
+.heading--half-colored {
+    color: transparent;
+    background: linear-gradient(315deg, #3D434F 50%, #00ffb3 100%);
+    -webkit-background-clip: text;
+} /* h1 class*/
+.link--with-decoration:after {
+    content: "";
+    display: block;
+    border-radius: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+    position: absolute;
+    transition: all .15s ease;
+    z-index: -1;
+    background-color: #00ffb3;
+    width: calc(100% + 5%);
+    height: 35%;
+    opacity: 1;
+}/* <a> class*/
+canvas {
+    position: inherit !important;
+}
+.head{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    margin-bottom: -50vw;
+    text-transform: uppercase;
+    /* font-weight: 800; */
+    /* letter-spacing: 0.1rem; */
+    /* font-family: 'Audiowide', cursive; */
+}
+.head h3{
+    padding-top: 5rem;
+    /* font-size:10rem; */
+}
+#typed {
+    font-size:x-large;
+}
