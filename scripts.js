@@ -11,13 +11,13 @@ $("#tsparticles")
             }
           },
           color: {
-            value: '#283593'
+            value: '#00ffb3'
           },
           shape: {
             type: 'circle',
             stroke: {
               width: 1,
-              color: '#283593'
+              color: '#00ffb3'
             },
             polygon: {
               nb_sides: 6
@@ -46,7 +46,7 @@ $("#tsparticles")
           line_linked: {
             enable: true,
             distance: 150,
-            color: '#283593',
+            color: '#00ffb3',
             opacity: 1,
             width: 1
           },
